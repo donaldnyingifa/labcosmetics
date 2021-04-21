@@ -1,0 +1,27 @@
+{
+  "name": "labcosmetics",
+  "version": "1.0.0",
+  "description": "A cosmetics shop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donaldnyingifa/labcosmetics.git"
+  },
+  "keywords": [
+    "online",
+    "store"
+  ],
+  "author": "Donald Nyingifa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donaldnyingifa/labcosmetics/issues"
+  },
+  "homepage": "https://github.com/donaldnyingifa/labcosmetics#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
