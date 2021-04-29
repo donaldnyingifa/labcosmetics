@@ -20,6 +20,7 @@ router.get('/:id', asyncHandler(async (req, res) => {
     const product = await Product.findById(req.params.id);
 
     if (product) {
+        // throw new Error('haha')
         res.json(product);
     }
     else {
