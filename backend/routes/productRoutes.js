@@ -8,7 +8,7 @@ import Product from "../models/productModel.js";
 // @access Public
 router.get("/", asyncHandler(async (req, res) => {
     const products = await Product.find({})
-
+    //throw new Error('haha')
     res.json(products);
 }));
 
@@ -20,7 +20,6 @@ router.get('/:id', asyncHandler(async (req, res) => {
     const product = await Product.findById(req.params.id);
 
     if (product) {
-        // throw new Error('haha')
         res.json(product);
     }
     else {
